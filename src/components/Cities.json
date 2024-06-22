@@ -1,0 +1,23 @@
+[
+    { "city": "Mumbai", "state": "Maharashtra" },
+    { "city": "Delhi", "state": "Delhi" },
+    { "city": "Bangalore", "state": "Karnataka" },
+    { "city": "Hyderabad", "state": "Telangana" },
+    { "city": "Chennai", "state": "Tamil Nadu" },
+    { "city": "Kolkata", "state": "West Bengal" },
+    { "city": "Jaipur", "state": "Rajasthan" },
+    { "city": "Ahmedabad", "state": "Gujarat" },
+    { "city": "Pune", "state": "Maharashtra" },
+    { "city": "Surat", "state": "Gujarat" },
+    { "city": "Lucknow", "state": "Uttar Pradesh" },
+    { "city": "Kanpur", "state": "Uttar Pradesh" },
+    { "city": "Nagpur", "state": "Maharashtra" },
+    { "city": "Indore", "state": "Madhya Pradesh" },
+    { "city": "Patna", "state": "Bihar" },
+    { "city": "Bhopal", "state": "Madhya Pradesh" },
+    { "city": "Ludhiana", "state": "Punjab" },
+    { "city": "Agra", "state": "Uttar Pradesh" },
+    { "city": "Varanasi", "state": "Uttar Pradesh" },
+    { "city": "Thane", "state": "Maharashtra" }
+  ]
+  
