@@ -3,14 +3,14 @@ import React from 'react';
 
 const JobItem = ({ job, duplicateJob, deleteJob, setSelectedJobId, isSelected }) => {
   return (
-    <ol className={`border-b p-2 flex flex-col sm:flex-row justify-between items-center ${isSelected ? 'bg-gray-200' : ''}`}>
+    <ol className={`border-b p-2 flex justify-between items-center ${isSelected ? 'bg-gray-200' : ''}`}>
       <span 
         onClick={() => setSelectedJobId(job.id)} 
-        className="cursor-pointer text-blue-600 hover:underline mb-2 sm:mb-0"
+        className="cursor-pointer text-blue-600 hover:underline"
       >
         {job.title || 'Untitled Job'}
       </span>
-      <div className="space-x-2 flex">
+      <div className="flex space-x-2">
         <button 
           className="bg-green-500 text-white px-2 py-1 rounded flex items-center justify-center" 
           onClick={() => duplicateJob(job.id)}
@@ -26,6 +26,6 @@ const JobItem = ({ job, duplicateJob, deleteJob, setSelectedJobId, isSelected })
       </div>
     </ol>
   );
-};  
+};
 
 export default JobItem;
